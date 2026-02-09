@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Abhijith S</h1>
+    <p>Frontend Developer | Beginner Full Stack Developer</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Abhijith. I'm a beginner web developer learning full stack development.
+      I enjoy building websites using HTML, CSS, JavaScript and Node.js.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>Node.js (Basic)</li>
+      <li>MongoDB Atlas</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A single page portfolio website with backend contact form connected to MongoDB Atlas.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Form</h2>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="status"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Abhijith S | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
